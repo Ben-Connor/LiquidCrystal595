@@ -131,7 +131,7 @@ private:
   uint8_t _datapin;
   uint8_t _latchpin;
   uint8_t _clockpin;
-  byte _register; //Stores the current state of the data
+  uint8_t _register; //Stores the current state of the data
  
   uint8_t _displayfunction;
   uint8_t _displaycontrol;
